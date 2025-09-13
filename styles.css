@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+  font-family: 'Roboto';
+  /* border: 2px solid red; */
+  /* box-sizing: border-box; */
+  padding: 0;
+  margin: 0;
+
+}
+
+
+header {
+  background: #1F2937;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 70px;
+  margin: 10px 300px;
+
+}
+
+.HeaderLogo {
+  font-size: 24px;
+  font-weight: 900;
+  color: #F9FaF8;
+  flex: 1;
+}
+
+
+a {
+  text-decoration: none;
+  color: #E5E7EB;
+  flex: 1;
+  padding: 10px;
+  font-size: 18px;
+
+}
+
+body {
+  background: #1F2937;
+}
+
+.intro {
+  background: #1F2937;
+  display: flex;
+  align-items: center;
+  padding: 100px 300px;
+}
+
+.intro button {
+  background: #3882F6;
+  color: #f9faf8;
+  font-size: 18px;
+  padding: 8px 32px;
+  border: none;
+  border-radius: 5px;
+}
+
+.intro h1 {
+  color: #F9FaF8;
+  font-size: 48px;
+  font-weight: 900;
+}
+
+.intro p {
+  color: #E5E7EB;
+  font-size: 18px;
+}
+
+.image {
+  background: gray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 600px;
+  height: 350px;
+}
+
+
+.information {
+  background: white;
+  padding: 25px 400px;
+}
+
+.information h2 {
+  font-size: 36px;
+  font-weight: 900;
+  color: #1F2937;
+  text-align: center;
+  padding: 25px 0px;
+}
+
+.infobox-container {
+  display: flex;
+  padding: 25px 0px;
+  gap: 20px;
+}
+
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  border: 5px solid #3882f6;
+  border-radius: 20px;
+}
+
+.infobox p {
+  color: #1F2937;
+  font-weight: 300;
+  padding-top: 10px;
+}
+
+.inspiring {
+  background: #E5E7EB;
+  padding: 100px 400px;
+}
+
+.quote {
+  color: #1F2937;
+  font-size: 36px;
+  font-weight: 300;
+}
+
+.author {
+  text-align: right;
+}
+
+.signup {
+  padding: 100px 300px;
+  background: white;
+}
+
+.bluebox {
+  display: flex;
+  background-color: #3882f6;
+  color: white;
+  padding: 50px 100px;
+  border-radius: 10px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.bluebox button {
+  color: #f9faf8;
+  background-color: #3882f6;
+  border: 1px solid #f9faf8;
+  padding: 5px 15px;
+  border-radius: 5px;
+}
+
+footer {
+  color: #E5E7EB;
+  background: #1F2937;
+  text-align: center;
+  padding: 50px 0;
+}
