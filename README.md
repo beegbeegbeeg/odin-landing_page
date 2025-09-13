@@ -1,0 +1,1 @@
+My second project from the odin project foundations course: [Landing Page](https://beegbeegbeeg.github.io/odin-landing_page/).
